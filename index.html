@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Музей</title>
+</head>
+<body>
+    <div class="wrapper">
+    <header>
+        <h1 class="h1">ДОБРО ПОЖАЛОВАТЬ НА САЙТ МУЗЕЯ ЛУВР!</h1>
+        <img class="img-logo" src="img/logo.png" alt="логотип">
+            <nav>
+                <a href="#">Навигация</a>
+                <a href="#infa">О нас</a>
+                <a href="#adres">Наш адрес</a>
+                <a href="#zakazat">Заказать билеты</a>
+                <a href="#gde naiti">Социальные сети</a>
+            </nav>
+    </header>
+    <main>
+        <section>
+            <img class="img-louvre" src="img/110.jpg" alt="">
+            <h2 id="infa">Информация о нас</h2>
+            <p>Lorem30 ipsum, dolor sit amet consectetur adipisicing elit. Doloribus porro harum ad pariatur corporis in. Vero, consequuntur voluptas dolor eligendi mollitia, doloribus repellendus esse accusamus eum alias molestiae inventore placeat.</p>
+            <p>Lorem30 ipsum dolor sit amet consectetur adipisicing elit. Placeat labore facilis dignissimos corrupti sed temporibus veniam itaque maiores his. Porro facere totam repellendus his dicta adipisci deleniti atque asperiores recusandae.</p>
+            <img src="img/like.png" alt="" class="image">
+        </section>
+        <section>
+            <h2 id="adres">Наш адрес</h2>
+            <button class="btn">Показать адрес</button>
+            <p class="textPrint"></p>
+            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Af1a9fed7a923c1108ea3a42be28bf8d549dbb02f2b88b975f1d2f4224fec1edb&amp;source=constructor" width="1500" height="350" frameborder="0"></iframe>
+        </section>
+        <section>
+            <h2 id="zakazat">Заказать билеты</h2>
+            <p class="text-p"></p>
+            <p>
+                <img src="img/3.jpg" alt="картина" class="card">
+                <img src="img/5.jpg" alt="картина" class="card">
+                <img src="img/4.jpg" alt="картина" class="card">   
+            </p>
+            <form action="">
+               Укажите количество билетов <input type="number" min="1" max="15">
+                Укажите предпочитаемую дату посещения<input type="date">
+               <p> <input type="submit" value="Купить билеты"> </p>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <h3 id="gde naiti">Где нас можно найти</h3>
+            <a href="#"><img src="img/icons/fb.png" alt="fb"></a>
+            <a href="#"><img src="img/icons/mail.png" alt="mail"></a>
+            <a href="#"><img src="img/icons/vk.png" alt="vk"></a>
+    </footer>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
